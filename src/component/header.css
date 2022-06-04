@@ -1,12 +1,28 @@
 .header{
     position: sticky;
-    height: 164px;
+    height: 124px;
     box-shadow: 2px 3px #c3c1c1;
     display: flex;
    align-items: center;
+   z-index: 100;
 }
 .logo{
     width: 6%;
     height: 35px;
-    margin: 0 2%;
+    margin: 0 2% 0 8% ;
+}
+.flex {
+    padding: 2.5rem;
+}
+.id {
+    color: rgba(59,153,252);
+}
+button.btn {
+    width: 116px;
+    padding: 13px;
+    background-color: rgba(59,153,252);
+    border: 2px transparent;
+    border-radius: 0.2rem;
+    color: white;
+    font-weight: 800;
 }
