@@ -89,6 +89,6 @@ const image ={
  logo,loopring,keyring,kyberswap,jadewallet,i,inchwallet,infinity,infinyo,halodefi,hashkeyme,huobiWallet,
  github,gnosis,gridplus,guardwallet,facebook,flarwalle,easypocket,eidoo,ellipal,equal,dcentwallet,defiant,dharna,
  dokwallet,coin98,coinbase,coinomi,coolwallet,cybavowallet,crypto,bash,binance,bitkeep,bitpay,bridgewallet,
- btc,aktion,alice,alphawallet,argent,atomic,atwallet,authereum
+ btc,aktion,alice,alphawallet,argent,atomic,atwallet,authereum,Safepal
 }
 export default image

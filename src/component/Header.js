@@ -3,8 +3,9 @@ import image from '../image/image'
 import "./header.css"
 function Header() {
   return (
-    <div>
-      <link><img src={image.logo} alt="logo"/></link>
+    <div className='header'>
+      <img className='logo' src={image.logo} alt="logo"/>
+      <h2>WalletConnect</h2>
     </div>
   );
 }

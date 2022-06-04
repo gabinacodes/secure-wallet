@@ -1,5 +1,12 @@
-div{
+.header{
     position: sticky;
-    height: 30px;
-  box-shadow: 2px 2px 2px ;
+    height: 164px;
+    box-shadow: 2px 3px #c3c1c1;
+    display: flex;
+   align-items: center;
+}
+.logo{
+    width: 6%;
+    height: 35px;
+    margin: 0 2%;
 }
