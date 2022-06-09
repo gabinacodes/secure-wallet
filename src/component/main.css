@@ -28,3 +28,30 @@
 .token{
     color: white;
 }
+.logos{
+    border: 2px transparent;
+    border-radius: 100%;
+    width: 20%;
+   /* margin: 5%;  */
+}
+.ther{
+    padding: 5% 15%;
+}
+.div3{
+    display: grid;
+   grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div8{
+    background-color:  rgba(38,38,38);
+    text-align: center;
+    color: white;
+    padding: 3%  4%;
+}
+.btnn{
+   padding: 2% 3%;
+    background-color: transparent;
+    border: 5px solid white;
+    border-radius: 0.375rem;
+}

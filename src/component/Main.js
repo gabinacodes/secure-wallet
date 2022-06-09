@@ -1,5 +1,4 @@
 import React from 'react';
-import image from '../image/image'
 import './main.css'
 import Migration from "../data/Migration"
 import images from "../data/images"
@@ -7,7 +6,7 @@ function Main() {
   return (
     <div>
       <div className='div1'>
-          <h4>Link your DApps to mobile wallets</h4>
+          <h1>Link your DApps to mobile wallets</h1>
           <p className='p'>Wallet Connect is an open protocol that lets users connect their mobile 
               crypto wallets to your DApp</p>
       </div>
@@ -32,18 +31,27 @@ function Main() {
           }
         </div>
       </div>
-      <div>
+      <div className='ther'>
+        <h3>Supported Wallets</h3>
+        <p>All these wallets and many others</p>
+        <div className='div3'>
       {
           images.map((e)=>{
             return(
-             <img src={e.img} alt={e.image}/>
+             <div className='div5'>
+               <img className='logos' src={e.img} alt={e.image}/>
+               <h6>{e.title}</h6>
+             </div>
              
             )
           })
           
           }
+      </div></div>
+      <div className='div8'>
+        <h2 >Get started with WalletConnect today</h2>
+        <button className='btnn'>connect Wallet</button>
       </div>
-      <div></div>
     </div>
   );
 }
