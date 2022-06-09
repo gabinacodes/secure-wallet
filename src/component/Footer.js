@@ -5,13 +5,13 @@ function Footer() {
   return (
     <div className='div0'>
     <div className='div01'>
-     <img src={image.twitter} alt="twitter"/>
-     <img src={image.github} alt="github logo"/>
-     <img src={image.facebook} alt="facebook logo"/>
+     <img  className='social' src={image.twitter} alt="twitter"/>
+     <img className='social' src={image.github} alt="github logo"/>
+     <img className='social' src={image.facebook} alt="facebook logo"/>
      
     </div>
     <div className='divo2'>
-    <p>© 2022WalletConnect</p>
+    <p>©2022WalletConnect</p>
     </div>
     </div>
   );

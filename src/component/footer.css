@@ -1,3 +1,11 @@
 .div0{
+    display: inline-flex;
+}
+.div01{
     display: flex;
+    width:100%
+}
+.social{
+    width: 3%;
+    margin-right: 2%;
 }
