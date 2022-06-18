@@ -4,7 +4,7 @@ import "./modal.css"
 import "./footer.css"
 function modal() {
   return (
-    <div>
+    <div className="bg_color">
       <div className='dinv'>
           <p>Connect Wallet</p>
           <button className='btn1'>

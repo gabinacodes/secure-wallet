@@ -1,18 +1,36 @@
-.dinv{
-  
+.dinv {
+
     position: absolute;
     width: 40%;
     border: 2px solid transparent;
     background-color: white;
-    top:34px
-
-
+    top: 34px
 }
-.btn1{
+
+.btn1 {
     display: flex;
-    
     align-items: center;
+    justify-content: space-between;
+    padding: 12px 13px;
+    margin-bottom: 13px;
+    border: #11457d 1px solid !important;
+    background-color: white;
+    color: #11457d;
+    border-radius: 10px;
 }
-div{
+
+div {
     position: relative;
+}
+
+.bg_color {
+    position: fixed;
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+
 }
