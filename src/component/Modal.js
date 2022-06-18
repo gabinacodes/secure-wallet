@@ -1,22 +1,23 @@
 import React from 'react';
 import image from '../image/image';
+import "./modal.css"
 import "./footer.css"
 function modal() {
   return (
     <div>
-      <div>
+      <div className='dinv'>
           <p>Connect Wallet</p>
-          <button>
+          <button className='btn1'>
              <img  className='social' src={image.metamask} alt='metamask'/>
              <a>Metamask</a> 
           </button>
-          <button> <img className='social' src={image.trustwallet} alt='metamask'/>
+          <button  className='btn1'> <img className='social' src={image.trustwallet} alt='metamask'/>
              <a>TrustWallet</a> </button>
-          <button>
+          <button  className='btn1'>
           <img className='social' src={image.Safepal} alt='metamask'/>
              <a>SafePal</a> 
           </button>
-          <button>
+          <button  className='btn1'>
           <img  className='social'src={image.walletio} alt='metamask'/>
              <a>WalletConnect</a> 
           </button>
