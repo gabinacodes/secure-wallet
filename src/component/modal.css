@@ -1,10 +1,11 @@
 .dinv {
-
     position: absolute;
-    width: 40%;
+    width: 30%;
     border: 2px solid transparent;
     background-color: white;
-    top: 34px
+    top: 34px;
+    padding: 20px;
+    border-radius: 13px;
 }
 
 .btn1 {
@@ -22,15 +23,19 @@
 div {
     position: relative;
 }
-
+.none{
+    display:none;
+}
 .bg_color {
     position: fixed;
     display: flex;
-    width: 100vh;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.3);
-
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width: 100%;
 }

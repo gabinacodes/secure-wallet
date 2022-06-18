@@ -15,9 +15,9 @@ function Main() {
         <div className='bg_white'>
          
         {
-          Migration.map((e)=>{
+          Migration.map((e, index)=>{
             return(
-             <div className='flex' >
+             <div className='flex' key={index}>
               
              <h2 className='id'>{e.id}</h2>
              <h4 className='topic'>{e.topic}</h4>
@@ -36,9 +36,9 @@ function Main() {
         <p>All these wallets and many others</p>
         <div className='div3'>
       {
-          images.map((e)=>{
+          images.map((e, index)=>{
             return(
-             <div className='div5'>
+             <div className='div5' key={index}>
                <img className='logos' src={e.img} alt={e.image}/>
                <h6>{e.title}</h6>
              </div>
