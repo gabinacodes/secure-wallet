@@ -1,18 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import image from '../image/image';
 import "./modal.css"
 import "./footer.css"
 
-const Modal = ({classname}, {upclose}) => {
-  let v =  document.getElementsByClassName("bg_color flex")[0]
-  const [close, setclose ] = useState ("bg_color")   
+const Modal = ({classname, setOpen}) => {
   
-  function closer(params) {
+  /* function closer(params) {
+    let v =  document.getElementsByClassName("bg_color flex")[0]
     document.getElementsByClassName("bg_color")[0].className = "bg_color flex"
   }
-
+ */
   return (
-    <div className={`bg_color ${classname}`}  onClick={() => setclose(closer)}  >
+    <div className={`bg_color ${classname}`}  onClick={setOpen}  >
       <div className="dinv" >
         <p>Connect Wallet</p>
         <button className="btn1">

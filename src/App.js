@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
      <Header/>
-     <Main setOpen={()=>setOpen(open = "")} />
+     <Main setOpen={()=>setOpen(open = "" )} />
      <Footer/>
-     <Modal classname={open}/>
+     <Modal classname={open} setOpen={()=>setOpen(open = 'flex')}/>
     </div>
   );
 }
