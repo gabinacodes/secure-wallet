@@ -13,6 +13,7 @@ function App() {
      <Main setOpen={()=>setOpen(open = "" )} />
      <Footer/>
      <Modal classname={open} setOpen={()=>setOpen(open = 'flex')}/>
+     <
     </div>
   );
 }
