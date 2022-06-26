@@ -1,6 +1,7 @@
 import React from 'react';
-
-function modal2() {
+import "./modali.css"
+import "./main.css"
+const Modali = ({classname, setOpen}) => {
   return (
     <div className={`bg_color ${classname}`}  onClick={setOpen} >
       <div  className="dinv">
@@ -16,4 +17,4 @@ function modal2() {
   );
 }
 
-export default modal2;
+export default Modali;

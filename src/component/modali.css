@@ -1,0 +1,30 @@
+.phr{
+    text-align: center;
+    border-bottom: 2px solid #1868B7;
+    padding: 23px;
+    font-size: 20px;
+    margin: 0 98px;
+}
+.input{
+    border: 2px transparent;
+    border-radius: 12px;
+   
+}
+.para{
+    margin: 15px 0;
+    text-align: left;
+    font-size: 13px;
+}
+.btno{
+    margin: 0;
+    padding: 15px;
+    text-align: left !important;
+    background: #0c60cc;
+    border-radius: 10px;
+    color: #fff;
+    border: 2px transparent;
+    text-transform: capitalize;
+    position: relative;
+    left: -31%;
+
+}
