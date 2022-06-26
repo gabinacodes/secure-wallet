@@ -5,11 +5,7 @@ import "./footer.css"
 
 const Modal = ({classname, setOpen}) => {
   
-  /* function closer(params) {
-    let v =  document.getElementsByClassName("bg_color flex")[0]
-    document.getElementsByClassName("bg_color")[0].className = "bg_color flex"
-  }
- */
+  
   return (
     <div className={`bg_color ${classname}`}  onClick={setOpen}  >
       <div className="dinv" >
