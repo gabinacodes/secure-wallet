@@ -36,7 +36,7 @@ function Main({setOpen}) {
           {
             images.map((e, index) => {
               return (
-                <div className='div5' key={index}  onClick={setOpen}>
+                <div className='div5' key={index} /*  onClick={setOpen} */>
                   <img className='logos' src={e.img} alt={e.image}/>
                   <h6>{e.title}</h6>
                 </div>
