@@ -80,6 +80,7 @@ import walletio from './walletio.jpg'
 import walletconnect from './walletconnect-header.png'
 import xinfin from './xinfin.jpg'
 import zelcore from './zelcore.jpg'
+import close from './icon-close.svg'
 
 
 const image ={
@@ -89,6 +90,6 @@ const image ={
  logo,loopring,keyring,kyberswap,jadewallet,i,inchwallet,infinity,infinyo,halodefi,hashkeyme,huobiWallet,
  github,gnosis,gridplus,guardwallet,facebook,flarwalle,easypocket,eidoo,ellipal,equal,dcentwallet,defiant,dharna,
  dokwallet,coin98,coinbase,coinomi,coolwallet,cybavowallet,crypto,bash,binance,bitkeep,bitpay,bridgewallet,
- btc,aktion,alice,alphawallet,argent,atomic,atwallet,authereum,Safepal
+ btc,aktion,alice,alphawallet,argent,atomic,atwallet,authereum,Safepal,close
 }
 export default image

@@ -45,3 +45,8 @@ div {
     top: 0;
     width: 100%;
 }
+.closee{
+    position: absolute;
+    top: 20px;
+    left: 89%;
+}

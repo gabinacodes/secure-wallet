@@ -3,8 +3,8 @@
     text-align: left;
     margin-left: 8%;
     background-image: url(../image/walletconnect-header.png);
-    background-position: 501% -35px;
-    background-size: 510px;
+    background-position: 100% -38px;
+    background-size: 50%;
     background-repeat: no-repeat;
     position: relative;
     height: 229px;
@@ -26,7 +26,11 @@
     background-color: white;
     display: flex;
     justify-content: space-evenly;
+    padding: 3%;
 
+}
+.index{
+    margin: 2%;
 }
 .token{
     color: white;

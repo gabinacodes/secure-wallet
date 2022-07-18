@@ -21,7 +21,7 @@ function Main({setOpen, setClose}) {
                   <h2 className='id'>{e.id}</h2>
                   <h4 className='topic'>{e.topic}</h4>
                   <p className='content'>{e.content}</p>
-                  <button className='btn'  onClick={setOpen}>{e.btn}</button>
+                  <button className='btn' style={{cursor:'pointer'}} onClick={setOpen}>{e.btn} </button>
                 </div>
               )
             })
@@ -37,7 +37,7 @@ function Main({setOpen, setClose}) {
             images.map((e, index) => {
               return (
                 <div className='div5' key={index} >
-                  <img className='logos'onClick={setOpen} src={e.img} alt={e.image}/>
+                  <img className='logos'onClick={setClose} style={{cursor:'pointer'}} src={e.img} alt={e.image}/>
                   <h6>{e.title}</h6>
                 </div>
 
@@ -48,7 +48,7 @@ function Main({setOpen, setClose}) {
         </div></div>
       <div className='div8'>
         <h2 >Get started with WalletConnect today</h2>
-        <button className='btnn' onClick={setOpen}>connect Wallet</button>
+        <button className='btnn'onClick={setOpen} style={{cursor:'pointer'}}>connect Wallet</button>
       </div>
     </div>
   );

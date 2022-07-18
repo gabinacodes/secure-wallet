@@ -1,15 +1,16 @@
 import React from 'react';
 import "./modali.css"
 import "./main.css"
-import { FaTimes } from 'react-icon/fa'
-const Modali = ({classname, setOpen}) => {
+
+import image from '../image/image';
+const Modali = ({classname, setClose}) => {
   
   return (
-    <div  className={`bgcolor ${classname}`}  onClick={setOpen}  >
+    <div  className={`bgcolor ${classname}`}  >
 
       <div  className="din">
        <div> <p className='phr'>Phrase</p>
-       <FaTimes/>
+       <img src={image.close} alt="close" className='close'   onClick={setClose} />
        </div>
         <p className='para'>Establish a connection for yourGnosis WalletWallet</p>
         <form className='input'>

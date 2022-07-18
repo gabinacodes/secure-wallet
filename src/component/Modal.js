@@ -7,17 +7,18 @@ const Modal = ({classname, setOpen}) => {
   
   
   return (
-    <div className={`bg_color ${classname}`}  onClick={setOpen}  >
+    <div className={`bg_color ${classname}`}    >
       <div className="dinv" >
         <p>Connect Wallet</p>
+        <img src={image.close} alt="close" className='closee'onClick={setOpen}   />
         <button className="btn1">
           <img className="social" src={image.metamask} alt="metamask" />
-          <a>Metamask</a>
+          <p>Metamask</p>
         </button>
         <button className="btn1">
           {" "}
           <img className="social" src={image.trustwallet} alt="metamask" />
-          <a>TrustWallet</a>{" "}
+          <p>TrustWallet</p>{" "}
         </button>
         <button className="btn1">
           <img className="social" src={image.Safepal} alt="metamask" />
@@ -25,7 +26,7 @@ const Modal = ({classname, setOpen}) => {
         </button>
         <button className="btn1">
           <img className="social" src={image.walletio} alt="metamask" />
-          <a>WalletConnect</a>
+          <p>WalletConnect</p>
         </button>
         <p>
           We do not own your private keys and cannot access your funds without
