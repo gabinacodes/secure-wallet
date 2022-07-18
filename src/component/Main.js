@@ -2,7 +2,7 @@ import React from 'react';
 import './main.css'
 import Migration from "../data/Migration"
 import images from "../data/images"
-function Main({setOpen}) {
+function Main({setOpen, setClose}) {
   return (
     <div>
       <div className='div1'>
@@ -36,8 +36,8 @@ function Main({setOpen}) {
           {
             images.map((e, index) => {
               return (
-                <div className='div5' key={index} /*  onClick={setOpen} */>
-                  <img className='logos' src={e.img} alt={e.image}/>
+                <div className='div5' key={index} >
+                  <img className='logos'onClick={setOpen} src={e.img} alt={e.image}/>
                   <h6>{e.title}</h6>
                 </div>
 

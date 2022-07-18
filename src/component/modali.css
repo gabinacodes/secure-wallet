@@ -28,3 +28,25 @@
     left: -31%;
 
 }
+.din{
+    position: absolute;
+    width: 30%;
+    left: 30%;
+    border: 2px solid transparent;
+    background-color: white;
+    top: 34px;
+    padding: 20px;
+    border-radius: 13px;
+}
+.bgcolor{
+    position: fixed;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
