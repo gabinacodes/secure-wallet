@@ -50,3 +50,11 @@ div {
     top: 20px;
     left: 89%;
 }
+ @media screen and (max-width:900px) {
+    .dinv {
+        position: static;
+        width: 89%;
+        left:0%;
+    }
+   
+ }
